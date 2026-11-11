@@ -1,4 +1,3 @@
-import React from 'react'
 import "../css/home.css";
 import fondoPowerblade from "./../assets/home/slideInicio.png";
 import { Button } from '@/components/ui/button';

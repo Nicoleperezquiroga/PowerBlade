@@ -1,5 +1,4 @@
-import React from 'react'
-import { categorias, type Categoria } from '@/mocks/categorias.mock';
+import { type Categoria } from '@/mocks/categorias.mock';
 import { Link } from 'react-router';
 
 interface Props {

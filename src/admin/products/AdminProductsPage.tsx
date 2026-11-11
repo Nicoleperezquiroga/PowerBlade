@@ -1,4 +1,4 @@
-import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { AdminTitle } from "../components/AdminTitle"
 import { Link } from "react-router"
 import { CustomPagination } from "@/components/custom/CustomPagination"

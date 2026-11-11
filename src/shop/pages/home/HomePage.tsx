@@ -9,7 +9,7 @@ import { useState } from "react"
 export const HomePage = () => {
       const [categoriaSeleccionada, setCategoriaSeleccionada] =
       useState<Categoria | null>(categorias[0] ?? null)
-        
+        console.log(categoriaSeleccionada);
     return (
         <>
             <SlideInicio title="Todos lo que necesitas" />

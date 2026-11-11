@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
 interface ProductCardProps {
@@ -9,7 +8,7 @@ interface ProductCardProps {
   category: string;
 }
 
-const ProductCard = ({ id, name, price, image, category }: ProductCardProps) => {
+const ProductCard = ({ name, price, image, category }: ProductCardProps) => {
   return (
     <Card className=" group min-w-[200px] w-full border-0 shadow-none product-card-hover cursor-pointer p-0">
       <CardContent className="p-0">

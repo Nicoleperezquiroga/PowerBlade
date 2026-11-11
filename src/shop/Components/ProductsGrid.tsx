@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import type { Product } from '@/mocks/products.mock';
-import { ChevronLeft, ChevronRight, Filter, Grid, List } from 'lucide-react';
-import React, { useState } from 'react'
+import { Filter, Grid, List } from 'lucide-react';
+import { useState } from 'react'
 import ProductCard from './ProductCard';
 import { FilterSidebar } from './FilterSidebar';
 import { useSearchParams } from 'react-router';

@@ -1,12 +1,7 @@
-import React from 'react'
 import { Link } from 'react-router'
 import logo from "./../../assets/Logo.png";
 
-interface Props {
-    subtitle?:string;
-}
-
-export const CustomLogo = ({subtitle = 'Shop'}: Props) => {
+export const CustomLogo = () => {
     return (
         <Link to="/" className='flex items-center whitespace-nowrap'>
             <img
