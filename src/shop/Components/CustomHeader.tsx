@@ -48,11 +48,11 @@ export const CustomHeader = () => {
           )}>
             Productos
           </Link>
-          <Link to="/gender/women" className={cn(`text-sm font-medium transition-colors hover:text-primary`
+          <Link to="/" className={cn(`text-sm font-medium transition-colors hover:text-primary`
           )}>
             Quiénes Somos
           </Link>
-          <Link to="/gender/kid" className={cn(`text-sm font-medium transition-colors hover:text-primary`
+          <Link to="/" className={cn(`text-sm font-medium transition-colors hover:text-primary`
           )}>
             Contacto
           </Link>
@@ -100,14 +100,14 @@ export const CustomHeader = () => {
           </Link>
 
           <Link
-            to="/quienesSomos"
+            to="/"
             onClick={() => setMenuAbierto(false)}
             className="rounded-md px-3 py-3 text-sm font-medium hover:bg-slate-200"
           >
             Quienes Somos
           </Link>
           <Link
-            to="/contacto"
+            to="/"
             onClick={() => setMenuAbierto(false)}
             className="rounded-md px-3 py-3 text-sm font-medium hover:bg-slate-200"
           >
