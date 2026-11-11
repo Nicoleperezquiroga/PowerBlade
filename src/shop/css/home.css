@@ -1,0 +1,9 @@
+
+.fondoSlide{
+  background-image: url("../assets/home/slideInicio.png");
+
+  aspect-ratio: 1920 / 600; /* Reemplaza con la proporción real */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
